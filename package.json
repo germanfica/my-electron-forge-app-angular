@@ -1,6 +1,8 @@
 {
   "name": "my-electron-app",
-  "version": "0.0.0",
+  "productName": "my-app",
+  "version": "1.0.0",
+  "description": "My Electron application description",
   "main": "src/main.js",
   "scripts": {
     "ng": "ng",
@@ -13,6 +15,11 @@
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\""
   },
+  "keywords": [],
+  "author": {
+    "name": "German Fica"
+  },
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@angular/animations": "^14.2.0",
